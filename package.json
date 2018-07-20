@@ -1,0 +1,20 @@
+{
+  "name": "smil",
+  "version": "1.0.0",
+  "description": "Emoji for CLI",
+  "main": "index.js",
+  "bin": {
+    "smil": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jenbuzz/smil.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "emojilib": "^2.3.0",
+    "fuzzysearch": "^1.0.3",
+    "meow": "^5.0.0"
+  }
+}
