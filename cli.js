@@ -12,7 +12,8 @@ const cli = meow(`
         $ smil <input>
 
     Example
-        $ smil unicorn
+        $ smil rainbow
+        $ smil rainb
 `);
 
 const inputEmoji = cli.input.length > 0 ? cli.input[0] : null;
