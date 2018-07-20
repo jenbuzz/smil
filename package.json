@@ -1,10 +1,20 @@
 {
   "name": "smil",
   "version": "1.0.0",
-  "description": "Emoji for CLI",
-  "main": "index.js",
+  "description": "Find the right emoji on the command-line",
+  "keywords": [
+		"cli-app",
+		"cli",
+		"emoji",
+		"emojis",
+		"search",
+		"find",
+		"matching",
+    "relevant",
+    "smil"
+	],
   "bin": {
-    "smil": "index.js"
+    "smil": "cli.js"
   },
   "repository": {
     "type": "git",
