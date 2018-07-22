@@ -3,7 +3,7 @@
 const emojilib = require('emojilib');
 const fuzzysearch = require('fuzzysearch');
 
-module.exports = (input) => {
+module.exports = input => {
     if (emojilib.lib[input] && emojilib.lib[input].char) {
         return emojilib.lib[input].char;
     }
@@ -19,6 +19,4 @@ module.exports = (input) => {
     if (searchResults.length > 0) {
         return emojilib.lib[searchResults[0]].char;
     }
-
-    return;
-}
+};

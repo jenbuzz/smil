@@ -1,6 +1,6 @@
 'use strict';
 
-const spawnSync = require('child_process').spawnSync;
+const {spawnSync} = require('child_process');
 
 test('using cli get rainbow emoji using exact match', () => {
     const result = spawnSync(
