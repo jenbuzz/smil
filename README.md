@@ -3,7 +3,7 @@
 
 # smil
 
-Emoji CLI-App: Find the right emoji from the command-line and copy them to the clipboard.
+Emoji CLI-App: Find emojis from the command-line and copy them to the clipboard.
 
 ## Installation
 
