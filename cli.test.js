@@ -2,7 +2,7 @@
 
 const spawnSync = require('child_process').spawnSync;
 
-test('get rainbow emoji using exact match', () => {
+test('using cli get rainbow emoji using exact match', () => {
     const result = spawnSync(
         './cli.js',
         ['rainbow'],
@@ -12,7 +12,7 @@ test('get rainbow emoji using exact match', () => {
     expect(result).toEqual('🌈');
 });
 
-test('get rainbow emoji using fuzzy search', () => {
+test('using cli get rainbow emoji using fuzzy search', () => {
     const result = spawnSync(
         './cli.js',
         ['rainb'],
