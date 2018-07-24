@@ -28,6 +28,8 @@
     "clipboardy": "^1.2.3",
     "emojilib": "^2.3.0",
     "fuzzysearch": "^1.0.3",
+    "inquirer": "^6.0.0",
+    "inquirer-autocomplete-prompt": "^1.0.1",
     "meow": "^5.0.0"
   },
   "devDependencies": {
