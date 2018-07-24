@@ -36,14 +36,14 @@ if (inputEmoji) {
         type: 'autocomplete',
         name: 'emoji',
         message: 'Search for an emoji:',
-        source: function(answers, input) {
-            return new Promise(function(resolve) {
-                setTimeout(function() {
+        source: (answers, input) => {
+            return new Promise(resolve => {
+                setTimeout(() => {
                     resolve(search(input));
                 }, 20);
             });
         }
-    }]).then(function(result) {
+    }]).then(result => {
         const returnEmoji = result.emoji;
 
         if (returnEmoji) {
