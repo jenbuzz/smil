@@ -26,13 +26,7 @@ if (inputEmoji) {
     const returnEmoji = emoji(inputEmoji);
 
     if (returnEmoji) {
-        clipboardy.write(returnEmoji)
-            .then(() => {
-                console.log(`Copied ${returnEmoji} to clipboard!`);
-            })
-            .catch(() => {
-                console.log(returnEmoji);
-            });
+        writeToClipboard(returnEmoji);
     } else {
         console.log('Could not find that emoji 😢');
     }
@@ -53,13 +47,17 @@ if (inputEmoji) {
         const returnEmoji = result.emoji;
 
         if (returnEmoji) {
-            clipboardy.write(returnEmoji)
-                .then(() => {
-                    console.log(`Copied ${returnEmoji} to clipboard!`);
-                })
-                .catch(() => {
-                    console.log(returnEmoji);
-                });
+            writeToClipboard(returnEmoji);
         }
     });
+}
+
+function writeToClipboard(returnEmoji) {
+    clipboardy.write(returnEmoji)
+        .then(() => {
+            console.log(`Copied ${returnEmoji} to clipboard!`);
+        })
+        .catch(() => {
+            console.log(returnEmoji);
+        });
 }
