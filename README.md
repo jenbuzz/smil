@@ -1,6 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/jenbuzz/smil.png?branch=master)](http://travis-ci.org/jenbuzz/smil)
 
-
 # smil
 
 Emoji CLI-App: Find emojis from the command-line and copy them to the clipboard.
