@@ -4,6 +4,8 @@
 
 Emoji CLI-App: Find emojis from the command-line and copy them to the clipboard.
 
+<img src="smil.gif">
+
 ## Installation
 
 ```bash
