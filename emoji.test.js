@@ -9,3 +9,7 @@ test('get rainbow emoji using exact match', () => {
 test('get rainbow emoji using fuzzy search', () => {
     expect(emoji('rainb')).toEqual('🌈');
 });
+
+test('get no results using fuzzy search', () => {
+    expect(emoji('qwerty')).toBeUndefined();
+});
