@@ -21,6 +21,9 @@
     "url": "git://github.com/jenbuzz/smil.git"
   },
   "license": "MIT",
+  "engines": {
+		"node": ">=8"
+	},
   "scripts": {
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
