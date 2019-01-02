@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "clipboardy": "^1.2.3",
-    "emojilib": "^2.3.0",
+    "emojilib": "^2.4.0",
     "fuzzysearch": "^1.0.3",
     "inquirer": "^6.0.0",
     "inquirer-autocomplete-prompt": "^1.0.1",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "jest": "^23.4.1",
+    "jest": "^23.6.0",
     "xo": "*"
   },
   "xo": {
