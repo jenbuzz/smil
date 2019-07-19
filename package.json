@@ -22,24 +22,24 @@
   },
   "license": "MIT",
   "engines": {
-		"node": ">=8"
-	},
+    "node": ">=8"
+  },
   "scripts": {
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "dependencies": {
-    "clipboardy": "^1.2.3",
+    "clipboardy": "^2.1.0",
     "emojilib": "^2.4.0",
     "fuzzysearch": "^1.0.3",
-    "inquirer": "^6.2.2",
+    "inquirer": "^6.5.0",
     "inquirer-autocomplete-prompt": "^1.0.1",
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.3",
-    "jest": "^24.1.0",
-    "xo": "*"
+    "coveralls": "^3.0.5",
+    "jest": "^24.8.0",
+    "xo": "^0.24.0"
   },
   "xo": {
     "space": 4
