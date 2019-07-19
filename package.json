@@ -25,6 +25,7 @@
     "node": ">=8"
   },
   "scripts": {
+    "lint": "xo",
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
@@ -42,6 +43,10 @@
     "xo": "^0.24.0"
   },
   "xo": {
-    "space": 4
+    "space": 4,
+    "envs": ["node", "jest"],
+    "rules": {
+      "promise/prefer-await-to-then": false
+    }
   }
 }

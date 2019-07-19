@@ -12,5 +12,5 @@ test('get rainbow emoji using search', () => {
 test('get all emojis using search', () => {
     const searchResults = search('');
 
-    expect(Array.isArray(searchResults)).toBe(true); 
+    expect(Array.isArray(searchResults)).toBe(true);
 });
