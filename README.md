@@ -14,10 +14,22 @@ $ npm install -g smil
 
 ## Usage
 
+Search:
 ```bash
 $ smil
 ? Search for an emoji: (Use arrow keys or type to search)
+❯ 💯
+  🔢
+  😀
+  😬
+  😁
+  😂
+  🤣
+(Move up and down to reveal more choices)
+```
 
+Direct lookup:
+```bash
 $ smil rainbow
 🌈
 
