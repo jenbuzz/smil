@@ -7,9 +7,8 @@ module.exports = input => {
     const searchResults = [];
 
     Object.keys(emojilib.lib).forEach(name => {
-        if (typeof input !== 'undefined' & input !== '') {
-            const result = fuzzysearch(input, name);
-            if (result) {
+        if (typeof input !== 'undefined' && input !== '') {
+            if (fuzzysearch(input, name)) {
                 searchResults.push(emojilib.lib[name].char);
             }
         } else {
