@@ -33,20 +33,23 @@
     "clipboardy": "^2.1.0",
     "emojilib": "^2.4.0",
     "fuzzysearch": "^1.0.3",
-    "inquirer": "^6.5.0",
+    "inquirer": "^7.0.1",
     "inquirer-autocomplete-prompt": "^1.0.1",
-    "meow": "^5.0.0"
+    "meow": "^6.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.5",
-    "jest": "^24.8.0",
-    "xo": "^0.24.0"
+    "coveralls": "^3.0.9",
+    "jest": "^24.9.0",
+    "xo": "^0.25.3"
   },
   "xo": {
     "space": 4,
-    "envs": ["node", "jest"],
+    "envs": [
+      "node",
+      "jest"
+    ],
     "rules": {
-      "promise/prefer-await-to-then": false
+      "promise/prefer-await-to-then": 0
     }
   }
 }
