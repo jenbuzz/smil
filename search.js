@@ -17,7 +17,6 @@ module.exports = input => {
                     }
                 });
             }
-
         } else {
             searchResults.push(emojilib.lib[name].char);
         }
