@@ -10,6 +10,12 @@ module.exports = input => {
         if (typeof input !== 'undefined' && input !== '') {
             if (fuzzysearch(input, name)) {
                 searchResults.push(emojilib.lib[name].char);
+            } else {
+                emojilib.lib[name].keywords.forEach(keyword => {
+                    if (fuzzysearch(input, keyword)) {
+                        searchResults.push(emojilib.lib[name].char);
+                    }
+                });
             }
         } else {
             searchResults.push(emojilib.lib[name].char);
