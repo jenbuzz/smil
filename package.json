@@ -30,17 +30,17 @@
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "dependencies": {
-    "clipboardy": "^2.2.0",
+    "clipboardy": "^2.3.0",
     "emojilib": "^2.4.0",
     "fuzzysearch": "^1.0.3",
-    "inquirer": "^7.0.4",
+    "inquirer": "^7.1.0",
     "inquirer-autocomplete-prompt": "^1.0.2",
-    "meow": "^6.0.1"
+    "meow": "^7.0.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.9",
-    "jest": "^25.1.0",
-    "xo": "^0.26.1"
+    "coveralls": "^3.1.0",
+    "jest": "^26.0.1",
+    "xo": "^0.32.0"
   },
   "xo": {
     "space": 4,
